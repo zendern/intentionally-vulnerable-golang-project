@@ -28,7 +28,7 @@ jobs:
       uses: ShiftLeftSecurity/scan-action@master
       env:
         WORKSPACE: ""
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUBTOKEN }}
         SCAN_AUTO_BUILD: true
       with:
         output: reports
